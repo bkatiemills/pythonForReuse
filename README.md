@@ -12,7 +12,7 @@ So far, we've learned how to write loops, conditionals, and functions in python.
 > - AAA GGG is obviously terrible
 > - A-- A-- how good is this, really?
 
-> Let's give an alignment +1 point for every matching, non-gap character, -1 point for every mismatched non-gap character, and +0 points if there's a gap. Write a function `matchScore` that takes two globally aligned sequences, and uses this algorithm to calculate the match's score. Make 0 points for a match the default behavior, but let the user change this if they like.
+> Let's give an alignment +1 point for every matching, non-gap character, -1 point for every mismatched non-gap character, and +0 points if there's a gap. Write a function `matchScore` that takes two globally aligned sequences, and uses this algorithm to calculate the match's score. Make 0 points for a gap the default behavior, but let the user change this if they like.
 
 > Soln:
 
