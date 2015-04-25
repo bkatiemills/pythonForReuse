@@ -1,3 +1,5 @@
+## Warmup
+
 So far, we've learned how to write loops, conditionals, and functions in python. Let's warm up with a review.
 
 ### Problem 1
@@ -32,6 +34,8 @@ So far, we've learned how to write loops, conditionals, and functions in python.
  ```
 
 (After: everyone cut and paste your answers into the etherpad - we'll come back to these later)
+
+## Making Packages
 
 Now that we have a function to caluclate how well we're aligning sequences, we'd like to use it in many projects.
 
@@ -108,7 +112,7 @@ This is called 'making a module.'
 > Use your new function in your notebook.
 
 
-
+## Asserts & Testing
 
 Wrapping our functions up in packages is awesome, because now not only can we reuse our old work, but so can our colleagues and labmates. Think of how much faster we can all move, if we were to pick just one of the implementations of our function on the etherpad, instead of everybody writing their own.
 
@@ -199,7 +203,7 @@ By making sure our code passes a battery of tests of its performance, we can be 
 
 
 
-### Bonus Round
+## Scripting
 
 
 So far, we've been using the IPython Notebook to run all our python code. This looks nice, but there are drawbacks:
