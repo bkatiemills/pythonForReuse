@@ -103,9 +103,9 @@ This is called 'making a module.'
 
 > Given a string, reverse the order of the characters, and make the replacements:
 
-> A <--> T
+> Swap A and T
 
-> G <--> C
+> Swap G and C
 
 > So AATCG becomes CGATT.
 
