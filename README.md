@@ -88,10 +88,3 @@ The last problem is an example of another reason why writing tests is so crucial
 > Imagine the `matching.py` module contained a function called `reverseComplement`. This function should always return a string, and should at least be able to get the above example right. Write two tests in `tests.py` that check for this behavior; don't bother actually writing the `reverseComplement` function.
 
 What you just did is an example of **test driven design** - writing down what we want our function to do by defining the tests that check that that's the case. TDD has the great advantage of helping us fight confirmation bias when coding; if you write a function first, there's a great temptation to run it once, see that it superficially looks okay, and call it done. Having the tests in place forces you to check that all the expected behavior actually works.
-
-```
-for file in data*
-do
-python analysis cat $file
-done
-```
